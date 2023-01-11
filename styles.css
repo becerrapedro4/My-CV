@@ -1,7 +1,7 @@
 h1{
     color:rgb(18, 19, 18);
     font: size 48px;
-    background-color: cadetblue;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,3 +13,24 @@ h1{
     margin: 0;
     padding: 0;
 }
+
+#login {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: black;
+    padding: 20px;
+}
+
+.form-control{
+    border-radius: 10px;
+    border-style: outset;
+    border-color: black;
+    border: 1px;
+}
+
+
