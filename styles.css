@@ -1,4 +1,34 @@
-h1{
-    color:blue;
-    font: size 48px;
+
+
+#login {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: black;
+    padding: 20px;
 }
+
+.form-control{
+    border-radius: 10px;
+    border-style: outset;
+    border-color: black;
+    border: 1px;
+}
+
+#mainNav {
+    /*background-color: black;*/
+    background: linear-gradient(to right, #26b3bd, #4c7add);
+}
+
+#brandName{
+    color: white;
+}
+
+
+
+
+/* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
