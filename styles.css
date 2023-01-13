@@ -59,10 +59,17 @@ background: #0a65c2;
     left: 60%;
 }
 
+.circulo:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    bottom: 85%;
+    left: 80%;
+}
+
 .semi-circulo {
      
     background: #0a65c2;
-    -moz-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     position: absolute;
     
