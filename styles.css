@@ -21,7 +21,7 @@
 
 #mainNav {
     /*background-color: black;*/
-    background: linear-gradient(to right, #26b3bd, #4c7add);
+    background: linear-gradient(to left, #32b3e6, #0a65c2);
 }
 
 #brandName{
@@ -30,5 +30,56 @@
 
 
 
+.circulo {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+background: #0a65c2;
+}
+
+.circulo:nth-child(1) {
+    width: 150px;
+    height: 150px;
+    bottom: 28%;
+    left: 30%;
+}
+
+.circulo:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    bottom: 15%;
+    left: 10%;
+}
+
+.circulo:nth-child(3) {
+    width: 125px;
+    height: 125px;
+    bottom: 55%;
+    left: 60%;
+}
+
+.semi-circulo {
+     
+    background: #0a65c2;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    position: absolute;
+    
+}
+
+.semi-circulo:nth-child(1){
+    width: 75px; 
+    height: 150px;
+    top: 12%;
+    border-radius: 0px 100px 100px 0px;
+}
+.semi-circulo:nth-child(2){
+    width: 75px; 
+    height: 150px;
+    right: 0;
+    top: 45%;
+    border-radius: 100px 0px 0px 100px;
+}
 
 /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
