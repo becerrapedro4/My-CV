@@ -69,7 +69,7 @@ background: #0a65c2;
 .semi-circulo {
      
     background: #0a65c2;
-    border-radius: 0 100px 100px 0;
+    
     -webkit-border-radius: 0 100px 100px 0;
     position: absolute;
     
