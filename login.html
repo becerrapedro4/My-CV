@@ -4,7 +4,6 @@
     
     <meta charset="utf-8">
     <title>ingresar</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css" />
     <!-- Required meta tags -->
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -16,29 +15,63 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     
 </head>
+<nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark" id="mainNav">
+  <div class="container-fluid">
+      <a class="navbar-brand js-scroll-trigger font-bold" href="index.html"  id="brandName">Portfolio Virtual</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" 
+       aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lead" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lead" href="#sobremi">Sobre Mí</a>
+        </li>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lead" href="#experiencia">Experiencia</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lead" href="#contacto">Contacto</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link js-scroll-trigger lead" href="login.html">Iniciar Sesión</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+</nav>
 
-<h3 style="background: linear-gradient(to right, #26b3bd, #4c7add); 
-text-align: center; padding: 5px; color: white;">Login de usuario</h3>
 <body>
-<form id="login">
+  
+    <div class="mx-auto p-3 bg-dark text-white mt-25" style="width: 200px;">Inicio de Sesión</div>
+    
+<form id="login" class="ms-10 me-10 mt-2">
+ 
+    <div class="mb-4">
 
-    <div class="mb-3">
-
-      <label for="idE" class="form-label">Correo</label>
+      <label for="idE" class="form-label">Correo Electrónico</label>
 
       <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
 
       <div id="idEH" class="form-text">
-        <div class="alert alert-warning" role="alert">
+        <div class="alert alert-warning p-1" role="alert">
             Debe ser un correo válido.</div></div>
 
     </div>
 
-    <div class="mb-3">
+    <div class="mb-4">
 
-      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
 
       <input type="password" class="form-control" id="exampleInputPassword1">
+      <div id="idEH" class="form-text">
+        <div class="alert alert-danger p-1" role="alert">
+            Contraseña Incorrecta.</div></div>
 
     </div>
 
