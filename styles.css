@@ -1,27 +1,52 @@
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    
 
 #login {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    
     border: 1px;
-    border-radius: 10px;
-    border-style: outset;
-    border-color: black;
+    border-radius: 16px;
     padding: 20px;
+    width: 36%; 
+    height: 67%;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    
 }
 
 .form-control{
     border-radius: 10px;
     border-style: outset;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border: 1px;
+
+}
+
+.square-login {
+    width: 40%; 
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background: #7e97a8b2;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    
+
+   /* text-align: center; */ 
+
+
 }
 
 #mainNav {
     /*background-color: black;*/
-    background: linear-gradient(to left, #32b3e6, #0a65c2);
+    background: linear-gradient(to left, #27a3d4, #0a65c2);
+    
+    border-radius: 0px 0px 16px 16px;
+
 }
 
 #brandName{
@@ -41,8 +66,8 @@ background: #0a65c2;
 .circulo:nth-child(1) {
     width: 150px;
     height: 150px;
-    bottom: 28%;
-    left: 30%;
+    bottom: 12%;
+    left: 40%;
 }
 
 .circulo:nth-child(2) {
@@ -55,7 +80,7 @@ background: #0a65c2;
 .circulo:nth-child(3) {
     width: 125px;
     height: 125px;
-    bottom: 55%;
+    bottom: 38%;
     left: 60%;
 }
 
@@ -63,14 +88,33 @@ background: #0a65c2;
     width: 80px;
     height: 80px;
     bottom: 85%;
-    left: 80%;
+    left: 50%;
 }
 
+.circulo:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    bottom: 55%;
+    left: 90%;
+}
+
+.circulo:nth-child(6) {
+    width: 60px;
+    height: 60px;
+    bottom: 65%;
+    left: 70%;
+}
+
+.circulo:nth-child(7) {
+    width: 60px;
+    height: 60px;
+    top: 20%;
+    left: 30%;
+}
 .semi-circulo {
      
     background: #0a65c2;
-    
-    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
     position: absolute;
     
 }
@@ -88,5 +132,49 @@ background: #0a65c2;
     top: 45%;
     border-radius: 100px 0px 0px 100px;
 }
+
+.square-welcome {
+        width: 60%; 
+        height: 50%;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        background: #7e97a8b2;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.4px);
+        -webkit-backdrop-filter: blur(11.4px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        
+  
+        text-align: center;  
+
+
+}
+.fuente{
+   font-family: Montserrat, sans-serif;
+    font-size: 3em;
+    color: rgb(236, 236, 236);
+}
+.header{
+    height: 100vh;
+    display: flex;
+}
+ 
+
+.square-fondo {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background: #a2b6bd;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border-radius: 16px;
+
+}
+
+
+
 
 /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */

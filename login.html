@@ -48,13 +48,36 @@
 
 <body>
   
-    <div class="mx-auto p-3 bg-dark text-white mt-25" style="width: 200px;">Inicio de Sesión</div>
-    
-<form id="login" class="ms-10 me-10 mt-2">
+  <header class="header">
+ 
+    <section id="inicio" class="py-5" >
+      
+     
+      <div class="circulos">
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+      </div>
+      
+      <div class="semi-circulos">
+        
+        <div class="semi-circulo"></div>
+        <div class="semi-circulo"></div>
+      </div>
+
+      <div class="square-login">
+    <div class="mx-auto p-3 text-white text-uppercase fw-bold mt-28" style="text-align: center; width: 200px;">Inicio de Sesión</div>
+  
+</div>
+<form id="login" >
  
     <div class="mb-4">
 
-      <label for="idE" class="form-label">Correo Electrónico</label>
+      <label for="idE" class="form-label text-white">Correo Electrónico</label>
 
       <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
 
@@ -66,7 +89,7 @@
 
     <div class="mb-4">
 
-      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+      <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
 
       <input type="password" class="form-control" id="exampleInputPassword1">
       <div id="idEH" class="form-text">
@@ -79,14 +102,13 @@
 
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
 
-      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+      <label class="form-check-label text-white" for="exampleCheck1">Recordarme</label>
 
     </div>
 
-    <button type="submit" class="btn btn-success">Enviar</button>
+    <button type="submit" class="btn btn-primary text-white" style="position: left 30%;">Enviar</button>
 
 </form>
-
 <!-- Bootstrap Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha256-m81NDyncZVbr7v9E6qCWXwx/cwjuWDlHCMzi9pjMobA=" crossorigin="anonymous"></script>
 
