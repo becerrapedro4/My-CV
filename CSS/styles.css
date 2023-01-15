@@ -66,7 +66,7 @@ background: #0a65c2;
 .circulo:nth-child(1) {
     width: 150px;
     height: 150px;
-    bottom: 12%;
+    bottom: 17%;
     left: 40%;
 }
 
@@ -129,7 +129,7 @@ background: #0a65c2;
     width: 75px; 
     height: 150px;
     right: 0;
-    top: 45%;
+    top: 65%;
     border-radius: 100px 0px 0px 100px;
 }
 
@@ -153,9 +153,30 @@ background: #0a65c2;
 }
 .fuente{
    font-family: Montserrat, sans-serif;
-    font-size: 3em;
+    font-size: 5vmax;
     color: rgb(236, 236, 236);
 }
+.fuente-azul {
+    font-family: Montserrat, sans-serif;
+    font-size: 5vmax;
+color: #0a65c2;
+
+}
+
+.fuente-sub{
+    font-family: Montserrat, sans-serif;
+    font-size: 5vmax;
+color: #0d0d0e;
+
+}
+
+.fuente-cv{
+    font-family: Montserrat, sans-serif;
+    font-size: 5vmax;
+color: #0d0d0e;
+
+}
+
 .header{
     height: 100vh;
     display: flex;
@@ -166,7 +187,7 @@ background: #0a65c2;
     height: 100vh;
     display: flex;
     position: relative;
-    background: #a2b6bd;
+    background: #f5fcff;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.8px);
     -webkit-backdrop-filter: blur(5.8px);
@@ -174,7 +195,21 @@ background: #0a65c2;
 
 }
 
+.foto-me{
 
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    height: 220px;
+    width: 220px;
+    background: #f5fcff;
+    object-fit: fill;
+  /*  -webkit-box-shadow: -95px -74px 0px 8px #0a65c2;
+-moz-box-shadow: -95px -74px 0px 8px #0a65c2;*/
+box-shadow: -105px -74px 0px 60px #0a65c2;
+
+}
 
 
 /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
